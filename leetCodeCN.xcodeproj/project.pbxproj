@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		F1E7495F20879EAF008F4AF4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E7495E20879EAF008F4AF4 /* main.swift */; };
+		F1E749662088BBB6008F4AF4 /* RomaToInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E749652088BBB6008F4AF4 /* RomaToInt.swift */; };
+		F1E749682088D8AC008F4AF4 /* LongestCommonPrefixSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E749672088D8AC008F4AF4 /* LongestCommonPrefixSolution.swift */; };
+		F1E7496A2088D9E6008F4AF4 /* BracketSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E749692088D9E6008F4AF4 /* BracketSolution.swift */; };
+		F1E7496C20898EA0008F4AF4 /* MergeTwoLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E7496B20898EA0008F4AF4 /* MergeTwoLists.swift */; };
+		F1E7496E2089D49A008F4AF4 /* RemoveDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E7496D2089D49A008F4AF4 /* RemoveDuplicates.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		F1E7495B20879EAE008F4AF4 /* leetCodeCN */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetCodeCN; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1E7495E20879EAF008F4AF4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F1E749652088BBB6008F4AF4 /* RomaToInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomaToInt.swift; sourceTree = "<group>"; };
+		F1E749672088D8AC008F4AF4 /* LongestCommonPrefixSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefixSolution.swift; sourceTree = "<group>"; };
+		F1E749692088D9E6008F4AF4 /* BracketSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BracketSolution.swift; sourceTree = "<group>"; };
+		F1E7496B20898EA0008F4AF4 /* MergeTwoLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoLists.swift; sourceTree = "<group>"; };
+		F1E7496D2089D49A008F4AF4 /* RemoveDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicates.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				F1E7495E20879EAF008F4AF4 /* main.swift */,
+				F1E749652088BBB6008F4AF4 /* RomaToInt.swift */,
+				F1E749672088D8AC008F4AF4 /* LongestCommonPrefixSolution.swift */,
+				F1E749692088D9E6008F4AF4 /* BracketSolution.swift */,
+				F1E7496B20898EA0008F4AF4 /* MergeTwoLists.swift */,
+				F1E7496D2089D49A008F4AF4 /* RemoveDuplicates.swift */,
 			);
 			path = leetCodeCN;
 			sourceTree = "<group>";
@@ -120,6 +135,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1E7495F20879EAF008F4AF4 /* main.swift in Sources */,
+				F1E7496E2089D49A008F4AF4 /* RemoveDuplicates.swift in Sources */,
+				F1E7496A2088D9E6008F4AF4 /* BracketSolution.swift in Sources */,
+				F1E7496C20898EA0008F4AF4 /* MergeTwoLists.swift in Sources */,
+				F1E749662088BBB6008F4AF4 /* RomaToInt.swift in Sources */,
+				F1E749682088D8AC008F4AF4 /* LongestCommonPrefixSolution.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
