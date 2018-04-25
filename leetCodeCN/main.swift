@@ -9,7 +9,9 @@
 import Foundation
 
 var nums = [0,0,1,1,1,2,2,3,3,4,4,4,4];
-var count = RemoveDuplicatesSolution.init().removeDuplicates(&nums);
+//var nums = [0];
+//var count = RemoveDuplicatesSolution.init().removeDuplicates(&nums);
+var count = RemoveDuplicatesSolution.init().removeElement(&nums, 2);
 print(count);
 
 
