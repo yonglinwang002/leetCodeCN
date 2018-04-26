@@ -22,6 +22,4 @@ import Foundation
 //print(count);
 
 
-
-
-print(Solution53.init().maxSubArray([-2,1,-3,4,-1,2,1,-5,4]))
+print(Solution53.init().maxSubArray([4,-9,3,3,-9,4]))

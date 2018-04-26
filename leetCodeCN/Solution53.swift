@@ -13,19 +13,17 @@ class Solution53 {
         if nums.count == 0 {
             return 0;
         }
-        var maxValue = nums[0];
-        for i in (1...nums.count).reversed()  {
-            let subCount = nums.count/i
-            var sum = 0;
-            for j in 0..<subCount
-            {
-                sum += nums[j];
-            }
-            if sum > maxValue
-            {
-                maxValue = sum
-            }
+        print(nums)
+        var tempMaxValue =  nums[0]
+        var maxValue =  nums[0]
+        
+        
+        for i in 1..<nums.count {
+            tempMaxValue =  max( nums[i], nums[i]+tempMaxValue)
+            print("tempMaxValue \(tempMaxValue)")
+            maxValue = max(maxValue,tempMaxValue)
         }
         return maxValue;
     }
+
 }
